@@ -1,3 +1,5 @@
+import ProfileImage from "../assets/ProfileImage.jpg";
+
 const Home = () => {
   return (
     <div
@@ -5,8 +7,8 @@ const Home = () => {
       className="bg-black text-white text-center px-4 px-4 md:px-12 lg:px-20 py-16 min-h-screen flex flex-col justify-center items-center"
     >
       <img
-        src=""
-        alt=""
+        src={ProfileImage}
+        alt="Profile-Image"
         className="mx-auto mb-8 w-48 h-48 rounded-full object-cover transform 
         transition-transform duration-300 hover:scale-105"
       />
