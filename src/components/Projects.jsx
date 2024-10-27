@@ -8,13 +8,6 @@ const projects = [
     image: VSMImage,
     github_link: "https://github.com/GothamJishitha/VisiOCR",
   },
-  {
-    id: 1,
-    name: "Visitor Management System",
-    technologies: "Python, OCR, SQL",
-    image: VSMImage,
-    github_link: "https://github.com/GothamJishitha/VisiOCR",
-  },
 ];
 
 const Projects = () => {
